@@ -1,0 +1,29 @@
+{
+  "name": "ensure-script-loader",
+  "version": "1.0.0",
+  "description": "Get the script resources",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "chunk",
+    "chunks",
+    "script",
+    "js",
+    "ensure",
+    "loader",
+    "glob"
+  ],
+  "author": "liyongleihf2006",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "loader-utils": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/liyongleihf2006/ensure-script-loader.git"
+  }
+}
