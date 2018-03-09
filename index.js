@@ -5,7 +5,7 @@ module.exports = function() {
     var options = loaderUtils.getOptions(this);
     var pattern = options.pattern;
     var globOptions = options.options;
-    var context = this.options.context;
+    var context = this.rootContext||this.options.context;
     var result = `var scripts = {};`;
     glob.sync(path.join(context,pattern),globOptions).forEach(function(filepath){
         var chunk = loaderUtils.urlToRequest(path.relative(context,filepath));
